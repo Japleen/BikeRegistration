@@ -1,4 +1,4 @@
-# BikeUi
+# BikeUi (Front end app)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3. This is the independent UI component of Bike regitration system whose server logic is built in spring boot , uploaded in my repository too. Dealing with CRUD operations in the system. You can clone and install angular cli using npm install -g @angular/cli and then host the application using ng serve from command line.
 
