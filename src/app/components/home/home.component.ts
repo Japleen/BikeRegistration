@@ -41,14 +41,14 @@ export class HomeComponent implements OnInit {
   }
 
   submitRegistration(){
-    console.log("this.bikeForm.valid",this.bikeForm.valid)
-    console.log("tthis.bikeForm.value",this.bikeForm.value)
+   
 
     if(this.bikeForm.valid){
       console.log("here")
-      this.validMessage="Your Bike Registration has been submitted. Thank you!";
+     
       this.bikeService.createBikeRegistration(this.bikeForm.value).subscribe(
         data=>{
+          this.validMessage="Your Bike Registration has been submitted. Thank you!";
           this.bikeForm.reset();
           return true;
         },
